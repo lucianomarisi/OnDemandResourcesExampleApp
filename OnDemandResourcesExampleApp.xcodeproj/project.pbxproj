@@ -87,6 +87,11 @@
 		4F75AB881BE0268400456A8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					BlueTag,
+					GreenTag,
+					RedTag,
+				);
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "TechBrewers LTD.";
@@ -238,6 +243,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OnDemandResourcesExampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = BlueTag;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = GreenTag;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TechBrewers-LTD.OnDemandResourcesExampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -250,6 +257,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OnDemandResourcesExampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = BlueTag;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = GreenTag;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TechBrewers-LTD.OnDemandResourcesExampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
